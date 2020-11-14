@@ -1,0 +1,90 @@
+
+body {
+  background: whitesmoke;
+  color: var(--clr-grey-1);
+  line-height: 1.5;
+  font-size: 0.875rem;
+} 
+
+.btn {
+  font-family: var(--ff-primary);
+  text-transform: uppercase;
+  background: transparent;
+  color: var(--clr-black);
+  letter-spacing: var(--spacing);
+  font-weight: 700;
+  border: 2px solid;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1rem;
+  padding: 0.75rem 1.25rem;
+  border-color: black;
+  border-style: double;
+}
+
+.input1 {
+  height: 39px;
+  width: 80%;
+  border-radius: 5px;
+  background: #e6e6e6;
+  font-family: Montserrat-Bold;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #666;
+  border-style: double;
+}
+
+.container {
+  justify-content: center;
+  align-items: center;
+}
+
+#task-list{
+  align-items: center;
+  justify-content: center;
+} 
+
+.complete-task{
+  text-decoration: line-through;
+  color: red;
+}
+
+checked-task {
+    float: right;
+    cursor: pointer;
+    color: aqua;
+    font-size: 18px;
+    font-weight: bold;
+    padding-right: 5px;
+}
+
+.remove-task {
+    float: right;
+    cursor: pointer;
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 5px;
+}
+
+ul {
+  list-style: circle inside; 
+}
+ol {
+  list-style: decimal inside; 
+}
+
+ol, ul {
+  padding-left: 0;
+  margin-top: 0; 
+}
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+  margin: 1.5rem 0 1.5rem 3rem;
+  font-size: 90%; 
+}
+li {
+  margin-bottom: 1rem;
+}
